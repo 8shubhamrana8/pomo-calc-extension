@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "multiAPP",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

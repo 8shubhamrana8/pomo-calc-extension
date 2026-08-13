@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="pomo">
+      <button class="start">▶︎</button>
+      <button class="stop">❚❚</button>
+      <button class="long-break">15min</button>
+      <button class="short-break">5min</button>
+      <div class="timer">00:00</div>
+    </div>
+    <div class="calc">
+      <div class="display">
+        <div data-previousOperand class="previousOperand"></div>
+        <div data-currentOperand class="currentOperand"></div>
+      </div>
+      <div class="btn">
+          <button id="allClear" class="span-two">AC</button>
+          <button id="delete">del</button>
+          <button data-operation id="division">÷</button>
+          <button data-number id="seven">7</button>
+          <button data-number id="eight">8</button>
+          <button data-number id="nine">9</button>
+          <button data-operation id="multiply">x</button>
+          <button data-number id="four">4</button>
+          <button data-number id="five">5</button>
+          <button data-number id="six">6</button>
+          <button data-operation id="substraction">-</button>
+          <button data-number id="one">1</button>
+          <button data-number id="two">2</button>
+          <button data-number id="three">3</button>
+          <button data-operation id="addition">+</button>
+          <button data-number id="decimal">.</button>
+          <button data-number id="zero">0</button>
+          <button id="equalsTo" class="span-two">=</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

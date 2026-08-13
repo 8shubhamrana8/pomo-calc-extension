@@ -1,0 +1,129 @@
+/* popup.css */
+
+body {
+  background: #1b0338;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+.container {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  margin-block-start: 7px;
+}
+
+/* --- Pomodoro Section --- */
+.pomo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pomo button {
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  margin-inline: 3px;
+  outline: none;
+  color: white;
+  border-radius: 14px;
+  font-family: cursive;
+  padding: 8px 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.pomo button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.start:hover {
+  background-color: #4e8a4e;
+}
+
+.stop:hover {
+  background-color: indianred;
+}
+
+.short-break:hover,
+.long-break:hover {
+  background-color: cornflowerblue;
+}
+
+.timer {
+  font-size: 1.5rem;
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+/* --- Calculator Section --- */
+.calc {
+  width: 100%;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 80px;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-self: center;
+  color: palegreen;
+  word-wrap: break-word;
+  word-break: break-all;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.previousOperand {
+  font-size: 1.2rem;
+  padding-inline: 8px;
+  opacity: 0.75;
+  color: darkseagreen;
+}
+
+.currentOperand {
+  padding-inline: 8px;
+}
+
+.btn {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(5, 50px);
+  gap: 2px;
+  padding: 5px;
+}
+
+.btn button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-family: inherit;
+}
+
+.btn button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#allClear:hover {
+  background-color: lightcoral;
+}
+
+#equalsTo:hover {
+  background-color: lightgreen;
+}
+
+.span-two {
+  grid-column: span 2;
+}
