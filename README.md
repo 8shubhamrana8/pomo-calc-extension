@@ -1,6 +1,6 @@
 # multiAPP — Pomodoro Timer & Quick Calculator Chrome Extension
 
-**multiAPP** is a lightweight, all-in-one productivity Chrome Extension built using **JavaScript (ES6+)**, **HTML5**, and **CSS3**. Designed following **Chrome Extension Manifest V3** standards, multiAPP seamlessly integrates a **Pomodoro Focus Timer** with a **Quick Calculator** directly into your browser popup window.
+**multiAPP** is a lightweight, all-in-one productivity Chrome Extension built using **JavaScript (ES6+)**, **HTML5**, and **CSS3**. Designed following **Chrome Extension Manifest V3** standards, multiAPP seamlessly integrates a **Pomodoro Focus Timer** with a **Quick Calculator** directly into your browser popup window. Made it curb my screen time.
 
 ---
 
