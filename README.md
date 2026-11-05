@@ -29,5 +29,3 @@ The project is modular and separated into the following key files:
 *   **State Restoration:** Reopening the popup instantly syncs and resumes the UI without data loss.
 *   **Embedded Calculator:** Clean, responsive grid layout for performing quick mathematical calculations (`+`, `-`, `x`, `÷`) alongside your focus tasks.
 *   **Sleek UI:** A modern, custom dark theme that is easy on the eyes during long study or work sessions. 
-
-This project was created by Shubham as the final project for Harvard's CS50x.
